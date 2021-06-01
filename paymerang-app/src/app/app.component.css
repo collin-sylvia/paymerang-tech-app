@@ -1,0 +1,126 @@
+ @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
+
+h1 {
+  font-family: Gill Sans;
+  font-size: 36px;
+}
+
+table {
+  border-collapse:separate;
+  border:solid #5cb85c 10px;
+  border-radius:15px;
+  -moz-border-radius:6px;
+}
+
+td {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+th {
+  font-size: 20px;
+  background-color: #d3d3da;
+  font-family: Comic Sans MS;
+}
+
+.divider{
+    width:10px;
+    height:auto;
+    display:inline-block;
+}
+
+.select-page{
+  background-color: white;
+  position: relative;
+  font-family: Arial;
+  font-size: 16px;
+  border: 1px solid transparent;
+  border-color:black;
+  top:3px;
+  arrow:none;
+  border-radius:20px;
+  -moz-border-radius:10px;
+  appearance: none;
+  text-align-last:center;
+}
+
+.next-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #0275d8;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 125px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.next-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.next-button span:after {
+  content: '\00bb';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.next-button:hover span {
+  padding-right: 25px;
+}
+
+.next-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.previous-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 125px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.previous-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.previous-button span:before {
+  content: '\00ab';
+  position: relative;
+  opacity: 0;
+  top: 0;
+  right:50px;
+  transition: 0.5s;
+}
+
+.previous-button:hover span {
+  padding-left: 10px;
+}
+
+.previous-button:hover span:before {
+  opacity: 1;
+  right: 0;
+}
