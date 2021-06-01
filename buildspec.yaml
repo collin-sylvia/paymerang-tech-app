@@ -13,7 +13,7 @@ phases:
     pre_build:
         commands:
             - echo installing dependencies...
-            - npm i -g @angular/CLI
+            - npm i -g @angular/cli
             - npm install
     build:
         commands:
@@ -22,4 +22,4 @@ artifacts:
     files:
         - "**/*"
     discard-paths: no
-    base-directory: dist/paymerang-app
+    base-directory: paymerang-app/dist/paymerang-app
